@@ -1,0 +1,31 @@
+{
+  "name": "╰☆☆ 𝙱𝙻𝙰𝙲𝙺 𝙿𝙰𝙽𝚃𝙷𝙴𝚁 ☆☆╮ BOT",
+  "description": "whatsapp md bot build with nodejs",
+  "repository": "https://github.com/nexusNw/Gojo-Satoru",
+  "logo": "https://i.ibb.co/CwffZ61/20220605-104552.jpg",
+  "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp automation", "multi device"],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    },
+    {
+      "url": "https://github.com/DuckyTeam/heroku-buildpack-imagemagick"
+    },
+    {
+      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
+    }
+  ],
+   "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
+Footer
+© 2022 GitHub, Inc.
+Footer navigation
+Term
